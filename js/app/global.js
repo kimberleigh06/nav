@@ -1,2 +1,3 @@
 console.log("js file is working?");
-alert("sup yo");
+
+$(".parent > a").append("<span class='plus' aria-label='plus'>&#43;</span>");
