@@ -13,9 +13,11 @@ Dependencies:
 1. jquery 2.2.2 (versions > 2 would probably work fine)
 
 TODO:
-1. create html markup
-2. create styles
+1. create html markup **in progress**
+2. create styles **in progress**
 3. create css dropdown functionality on hover
-4. create js functionality to allow keyboard users to navigate the menu with expected controls.
+4. create js functionality to allow keyboard users to navigate the menu with expected controls. **in progress**
 	- see http://simplyaccessible.com/article/arrow-key-navigation/ for inspiration
-5. Allow menu to work for up to 3 levels
+5. Allow menu to work for up to 3 levels **in progress**
+6. Add mobile functionality
+7. add hamburger icon

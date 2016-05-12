@@ -12,11 +12,44 @@
 		display: inline-block;
 		position: relative;
 		padding: 10px 15px;
+		//subnav styles
 		> ul {
 			position: absolute;
+			display: none;
+			height: 0px;
 		}
 		> ul li {
 			display: block;
 		}
+		&.expanded {
+			//subnav style
+			> ul {
+				display: block;
+				height: auto;
+			}
+		
+		}
+	}
+	
+}
+.menu-button {
+	border: none;
+	display: none;
+	background: transparent;
+}
+.menu-icon {
+	width: 30px;
+}
+
+@media only screen and (max-width: 767px) {
+	#accessibleNav ul li {
+		width: 100%;
+		> ul {
+			position: relative;
+		}
+	}
+	.menu-button {
+		display: block;
+		float: right;
 	}
 }

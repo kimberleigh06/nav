@@ -30,7 +30,7 @@ gulp.task('sass:watch', function () {
 
 /**concat stuff**/
 gulp.task('concat', function() {
-  return gulp.src(['js/app/global.js', 'js/app/keyboard.js'])
+  return gulp.src(['js/vendor/enquire.js', 'js/app/global.js', 'js/app/keyboard.js'])
     .pipe(concat('app.js'))
     .pipe(gulp.dest('./dist/'));
 });
